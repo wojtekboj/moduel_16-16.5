@@ -11,7 +11,7 @@ module.exports = (env) => {
         rules: [
             {
                 test: /\.js$/,
-                loader: "babel-loader",
+                loader: 'babel-loader',
                 options: {
                     presets: ['es2015', 'react']
                 }
@@ -24,11 +24,11 @@ module.exports = (env) => {
                         loader: 'css-loader',
                         options: {
                             modules: true
+                            }
                         }
-                    }
-                ]
-            }
-        ]
-    }
+                    ]
+                }
+            ]
+        }
     }
 };
